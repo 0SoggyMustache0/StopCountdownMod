@@ -1,0 +1,10 @@
+/run/media/georgek/Seagate/C#/StopCountdownMod/PauseCountdownMod/obj/Debug/net472/PauseCountdownMod.csprojAssemblyReference.cache
+/run/media/georgek/Seagate/C#/StopCountdownMod/PauseCountdownMod/obj/Debug/net472/PauseCountdownMod.AssemblyInfoInputs.cache
+/run/media/georgek/Seagate/C#/StopCountdownMod/PauseCountdownMod/obj/Debug/net472/PauseCountdownMod.AssemblyInfo.cs
+/run/media/georgek/Seagate/C#/StopCountdownMod/PauseCountdownMod/obj/Debug/net472/PauseCountdownMod.csproj.CoreCompileInputs.cache
+/run/media/georgek/Seagate/C#/StopCountdownMod/PauseCountdownMod/bin/Debug/net472/PauseCountdownMod.dll
+/run/media/georgek/Seagate/C#/StopCountdownMod/PauseCountdownMod/bin/Debug/net472/PauseCountdownMod.pdb
+/run/media/georgek/Seagate/C#/StopCountdownMod/PauseCountdownMod/bin/Debug/net472/Assembly-CSharp.dll
+/run/media/georgek/Seagate/C#/StopCountdownMod/PauseCountdownMod/obj/Debug/net472/PauseCountdownMod.csproj.CopyComplete
+/run/media/georgek/Seagate/C#/StopCountdownMod/PauseCountdownMod/obj/Debug/net472/PauseCountdownMod.dll
+/run/media/georgek/Seagate/C#/StopCountdownMod/PauseCountdownMod/obj/Debug/net472/PauseCountdownMod.pdb
