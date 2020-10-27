@@ -8,9 +8,10 @@ namespace PauseCountdownMod
 
 		private static bool _blocked = false;
 
-		public StopCountdownMod() : base("StopCountdown", "Countdown Stopper", "1.0.0") { }
-
-		public override string Description => "Allows starting games to be cancelled with right click. For that friend who clicks start too early.";
+		public StopCountdownMod() : base("StopCountdown", "Countdown Stopper", "1.0.0") {
+			Description = "Allows starting games to be cancelled with right click. For that friend who clicks start too early.";
+			Authors = new[] {"George Kazanjian"};
+		}
 
 		public override void Load() {
 
@@ -18,7 +19,7 @@ namespace PauseCountdownMod
 				//Min players for debugging only
 				// manager.MinPlayers = 0;
 				
-				if (_blocked) manager.AKLOKGOIKHP = 10;
+				if (_blocked) manager.CountDownTimer = 10;
 				
 				if (Input.GetMouseButtonDown(1)) {
 					_blocked = !_blocked;
@@ -26,7 +27,7 @@ namespace PauseCountdownMod
 				}
 
 				//Only add our text if the timer is within the default range
-				if(manager.AKLOKGOIKHP <= 5 && manager.AKLOKGOIKHP > 0) manager.GameStartText.Text += "\nRight Click To Stop.";
+				if(manager.CountDownTimer <= 5 && manager.CountDownTimer > 0) manager.GameStartText += "\nRight Click To Stop.";
 			};
 
 			//Unblock the timer whenever the start button is pressed
