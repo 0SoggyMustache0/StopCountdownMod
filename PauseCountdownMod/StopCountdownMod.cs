@@ -1,20 +1,24 @@
 ﻿using AmongUs.Api;
+using AmongUs.Api.Registry;
 using AmongUs.Loader;
 using UnityEngine;
 
 namespace PauseCountdownMod
 {
-	public class StopCountdownMod : Mod {
+	public class StopCountdownMod : Mod 
+	{
 
 		private static bool _blocked = false;
 
-		public StopCountdownMod() : base("StopCountdown", "Countdown Stopper", "1.0.0") {
+		public StopCountdownMod() : base("StopCountdown", "Countdown Stopper", "1.0.0") 
+		{
 			Description = "Allows starting games to be cancelled with right click. For that friend who clicks start too early.";
 			Authors = new[] {"George Kazanjian"};
+			Side = ModSide.Common;
 		}
 
-		public override void Load() {
-
+		public override void Load(RegistrarProvider provider) 
+		{
 			GameLobby.UpdateEvent += manager => {
 				//Min players for debugging only
 				// manager.MinPlayers = 0;
